@@ -1,0 +1,153 @@
+.ShipmentMain {
+    width: 83%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 2px solid rgb(231, 231, 231);
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.ShipmentInfo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid rgb(231, 231, 231);
+    /* margin: auto;  */
+
+}
+
+.ShipmentInfo table {
+    width: 100%;
+    text-align: right;
+    margin: 20px 0px 20px 0px;
+}
+
+.ShipmentInfo td {
+    padding: 5px;
+    padding-right: 30px;
+}
+
+
+
+.Shipmentrow1 {
+    color: rgb(182, 182, 182);
+    font-family: 'cairo';
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.Shipmentrow2 {
+    color: black;
+    font-family: 'cairo';
+    font-weight: 700;
+    font-size: 19px;
+}
+
+
+
+
+.ShipmentSteper {
+    width: 100%;
+    height: 18vh;
+    display: flex;
+    justify-content: center;
+}
+
+/* //////////////  progress stepper styling    /////////// */
+
+
+
+.circle {
+    width: 30px;
+    height: 30px;
+    background-color:#3bc435;
+    color: white;
+    border-radius: 50%;
+    border: 2px solid transparent;  
+    text-align: center; 
+}
+
+.stepWrapper {
+    display: flex;
+    margin-top: 20px;
+}
+
+.stepBlock .circleWrapper {
+    position: relative;
+    padding: 0px 11vw;
+}
+
+.stepBlock p {
+    font-weight: 700; 
+    padding-top: 3.5vh;
+    text-align: center;
+    font-family: 'cairo';
+    font-size: 1vw;
+}
+
+
+.stepBlock:not(:last-child)>.circleWrapper::after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    background-color: #3bc435;
+    margin: auto;
+    margin-right: 1vw;
+    z-index: -1;
+    text-align: center;
+}
+
+.stepBlock:not(:last-child)>.circleWrapper::after {
+    height: 7px;
+}
+
+
+
+
+
+
+/* ////////////////////// Changes for Mobile View ////////////////////////////////////////// */
+
+@media screen and (max-width:760px) {
+    .ShipmentInfo{
+        padding-left: 5vw;
+    }
+    .Shipmentrow1 {
+        font-size: 2.5vw;
+    }
+
+    .Shipmentrow2 {
+        font-size: 2.7vw;
+    }
+
+    .ShipmentSteper { 
+        height: 20vw; 
+    }
+
+    .circle {
+        width: 3.5vw;
+        height: 3.5vw;   
+        text-align: center;  
+    }
+    
+    .stepBlock .circleWrapper { 
+        padding: 0px 5vw;
+    }
+
+
+    .stepBlock p {  
+        font-size: 2vw;
+        padding:10px;
+    }
+
+    .stepBlock:not(:last-child)>.circleWrapper::after {
+        height: 4px;
+    }
+    
+}

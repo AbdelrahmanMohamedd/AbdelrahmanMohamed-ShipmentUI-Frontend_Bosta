@@ -1,0 +1,17 @@
+{
+    "Delivery Date within": "موعد التسليم خلال",
+    "Provider Name":"اسم التاجر",
+    "Last Update":"اخر تحديث",
+    "Tracking Number ":"رقم الشحنة  ",
+    "July":"يوليو",
+    "Sat": "السبت",
+    "Cairo Sorting Facility":"مرفق القاهرة للفرز",
+    "Tanta Hub":"فرع طنطا",
+    "TICKET_CREATED":"تم اصدار الشحنة",
+    "PACKAGE_RECEIVED":"تم استلام الطرد",
+    "IN_TRANSIT":"في مرحلة انتقالية",
+    "NOT_YET_SHIPPED":"لم يتم شحنه بعد",
+    "OUT_FOR_DELIVERY":"خارج للتوصيل",
+    "WAITING_FOR_CUSTOMER_ACTION":"في انتظار تصرف العميل",
+    "DELIVERED":"تم تسليم الشحنة"
+}

@@ -1,0 +1,156 @@
+.ShipmentDetailsMAIN {
+    width: 83%;
+    /* border: 1px solid gray; */
+    border-radius: 10px;
+    padding: 5px;
+    margin: auto;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    font-family: 'cairo';
+    margin-bottom: 100px;
+}
+
+
+
+
+.Address {
+    width: 30%;
+    direction: rtl;
+    border-radius: 10px;
+    align-items: center;
+    height: 45vh;
+}
+
+
+.AddressDesc {
+    padding: 6%;
+    height: 30%;
+    width: 100%;
+    border: 1px solid rgb(228, 228, 228);
+    background-color: rgba(247, 247, 247, 0.555);
+    border-radius: 5px;
+    align-self: center;
+    margin: auto;
+    margin-bottom: 5%;
+    font-weight: 600;
+}
+
+.Poblem {
+    display: flex;
+    justify-content:space-around;
+    padding: 5%;
+    height: 40%;
+    width: 100%;
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-align: center;
+    border: 1px solid rgb(228, 228, 228);
+    border-radius: 5px;
+    margin: auto;   
+}
+
+
+
+.Poblem img {
+    height: 100%;
+    margin-left: 2vw;
+}
+
+.Poblem button {
+    width: 100%;
+    border-radius: 13px;
+    padding: 4%  4% ;
+    background-color: #f40105;
+    color: whitesmoke;
+    font-weight: 700;
+    font-size: 0.9rem;
+    border: none;
+}
+
+
+.Poblem button:hover {
+    background-color: #ff595c;
+    color: whitesmoke;
+    font-weight: 800;
+}
+
+
+/* //////////////////////////////////////// */
+
+
+.Details {
+    width: 68%;
+    direction: rtl; 
+}
+
+.Details table {
+    width: 100%;
+    direction: ltr; 
+    /* border-radius: 10px; */
+} 
+
+.Details thead{
+    background-color: rgb(247, 247, 247);
+}
+.Details thead td{
+    font-weight: 700;
+    color: rgb(161, 161, 161); 
+}
+
+.Details tr { 
+    border: 1px solid rgb(214, 214, 214); 
+    /* border-radius: 10px;  */
+}
+
+.Details td { 
+    font-weight: 400;
+    font-size: 1.05vw;
+    text-align: right;
+    padding: 1.5% 3% 1.5% 0%; 
+}
+
+
+
+/* //////////////////// Mobile View //////////////////// */
+@media screen and (max-width:760px) {
+
+    .AddressDesc { 
+        height: 25%; 
+        font-weight: 400;
+        font-size: 2vw;
+    }
+
+    .Poblem {  
+        height: 30% ; 
+        font-size: 0.8rem;
+        font-weight: 400; 
+    }
+
+    .Poblem img {
+        height: 20%;
+        margin-left: 2vw; 
+    }
+    .Poblem p { 
+        font-size: 0.5rem; 
+
+    }
+    
+    .Poblem button { 
+        width: 100%;    
+        font-weight: 400;
+        font-size: 0.6rem; 
+    }
+    
+    .Details td { 
+        font-size: 1.5vw; 
+    }
+}
+
+
+@media screen and (max-height:50%) {
+
+     .Address{
+        font-size: 2vh; 
+    }
+}
