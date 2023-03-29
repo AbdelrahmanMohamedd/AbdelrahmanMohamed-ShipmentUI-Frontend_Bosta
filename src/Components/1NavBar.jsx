@@ -51,7 +51,7 @@ const NavBar = () => {
                     <div className='line3' ></div>
                 </div>   
                 <a  href="https://bosta.co/"> 
-                    <img className="bostaLogo" src='bostaLogo.png'/> 
+                    <img className="bostaLogo" src='bostaLogo.png'  alt='BostaLogo&Name'/> 
                 </a>
             </div>
 
